@@ -1,0 +1,29 @@
+.NoticeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    margin: 30px;
+}
+
+.TopBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    background-color: red;
+}
+
+.AddBtn {
+    text-decoration: none;
+    color: black;
+}
+
+
+.Month {
+    display: inline;
+    font-weight: 550;
+    color: beige;
+    border-bottom: 2px solid beige;
+}

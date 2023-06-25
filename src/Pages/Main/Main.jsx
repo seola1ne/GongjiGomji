@@ -1,11 +1,14 @@
+import Button from '../../components/Button/Button';
+import Notice from '../../components/Notice/Notice';
 import './Main.css';
 
 const Main = () => {
     return (
-        <>
-        Main
-        요거슨 메인입니다
-        </>
+        <div className='Container'>
+            <div className='Notices'>
+                <Notice />
+            </div>
+        </div>
     );
 }
 
