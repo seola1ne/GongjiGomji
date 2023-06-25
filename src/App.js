@@ -11,18 +11,18 @@ function App() {
     console.log(firestore);
   })
 
-  // create라는 변수로 firestore의 collection인 create에 접근
-  const create = firestore.collection("create");
+  // notice라는 변수로 firestore의 collection인 notice에 접근
+  const notice = firestore.collection("notice");
 
-  // collection의 document인 "create_item"을 가져온다.
-  create.doc("create_item").get().then((doc) => {
+  // collection의 document인 "notice_item"을 가져온다.
+  notice.doc("notice_item").get().then((doc) => {
     // document의 데이터를 가져옴
     console.log(doc.data());
 
     // document의 id를 가져옴
     console.log(doc.id);
   })
-  
+
   return (
     <div className="App">
       <Header />
