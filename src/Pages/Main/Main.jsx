@@ -4,6 +4,7 @@ const Main = () => {
     return (
         <>
         Main
+        요거슨 메인입니다
         </>
     );
 }
