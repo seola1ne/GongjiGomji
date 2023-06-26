@@ -2,22 +2,53 @@
     margin: 0;
 }
 
-body {
-    background-color: #EAEAEA;
-}
-
 .HeaderBox {
     background-color: #587c54;
     color: white;
-    width: 100%;
     height: 40px;
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     padding: 4px 16px;
 }
 
 .Logo {
-    width: 90px;
+    width: 80px;
+    vertical-align: middle;
+    margin-left: 1rem;
 }
+
+.LoginSpan {
+    float: right;
+    vertical-align: center;
+    margin-right: 2rem;
+}
+
+.Btn {
+    width: 80px;
+    border-radius: 10px;
+    padding: 6px 12px;
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 17px;
+    font-family: 'Humanbumsuk';
+}
+
+.Btn:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.LoginBtn {
+    width: 60px;
+    padding: 6px 8px;
+}
+
+.LoginBtn:hover {
+    width: 60px;
+}
+
