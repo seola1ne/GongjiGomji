@@ -7,7 +7,7 @@ const Notice = () => {
             <div className='TopBox'>
                 <h2 className='Month'>6월</h2>
                 <a href='/create' className='AddBtn'>
-                    <Button Title="추가" Type="ADD"/>
+                    <Button Title="추가" Type="ADD" style={{right: "20px"}}/>
                 </a>
             </div>
             <div className='NoticeList'>
