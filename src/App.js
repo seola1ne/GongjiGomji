@@ -5,23 +5,7 @@ import Main from '../src/Pages/Main/Main';
 import Create from './Pages/Create/Create';
 import { useEffect } from 'react';
 
-function App() {
-  // useEffect(() => {
-  //   console.log(firestore);
-  // })
-
-  // // notice라는 변수로 firestore의 collection인 notice에 접근
-  // const notice = firestore.collection("notice");
-
-  // // collection의 document인 "notice_item"을 가져온다.
-  // notice.doc("notice_item").get().then((doc) => {
-  //   // document의 데이터를 가져옴
-  //   console.log(doc.data());
-
-  //   // document의 id를 가져옴
-  //   console.log(doc.id);
-  // })
-
+function App() {    
   return (
     <div className="App">
       <Header />

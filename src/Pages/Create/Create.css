@@ -1,0 +1,75 @@
+.CreateBox {
+    margin: 60px auto;
+    width: 550px;
+    height: 500px;
+
+    background-color:lightgoldenrodyellow;
+    /* border: 3px solid #587c54; */
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.PostNoticeForm {
+    margin: 30px auto;
+}
+
+.PostNoticeForm h3 {
+    font-size: 26px;
+    text-align: left;
+}
+
+.Input, .PeriodInput {
+    margin: 12px auto;
+    padding: 8px 6px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    padding: 8px 6px;
+    border-bottom: 2px solid #587c54;
+}
+
+.Input input {
+    width: 400px;
+    height: 30px;
+    color: gray;
+    font-family: 'Humanbumsuk';
+}
+
+.PeriodInput input {
+    width: 44%;
+    height: 30px;
+
+    color: gray;
+    font-family: 'Humanbumsuk';
+    margin: 2px 4px;
+}
+
+.FormButton {
+    margin: 20px auto;
+    float: right;
+}
+
+.PostBtn, .DeleteBtn {
+    width: 100px;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    background-color: #587c54;
+    color: white;
+    margin: 2px 4px;
+    font-family: 'Humanbumsuk';
+    font-size: 16px;
+}
+
+.PostBtn {
+    width: 55px;
+}
+
+.SelectMonth {
+    border-bottom: 1px solid #587c54;
+    font-family: 'Humanbumsuk';
+}

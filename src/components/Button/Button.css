@@ -1,0 +1,6 @@
+.ButtonBox {
+    display: inline;
+    color: gray;
+    border-bottom: 1px solid gray;
+    float: right;
+}
