@@ -62,7 +62,7 @@ const Main = () => {
         <div className='Container'>
             <div className='Notices'>
                 <Notice />
-                {showNotices}
+                {/* {showNotices} */}
             </div>
         </div>
     );
