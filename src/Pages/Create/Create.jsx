@@ -14,13 +14,13 @@ const Create = () => {
         <div className="CreateBox">
             <form className="PostNoticeForm">
                 <div className='Input'>
-                    {/* <h3>내용</h3>
+                    <h3>내용</h3>
                     <input 
                         type="text" 
                         placeholder='내용을 입력해 주세요' 
                         className='ContentInput'
-                    /> */}
-                {/* </div>
+                    />
+                </div>
                 <div className='PeriodInput'>
                     <h3>기간</h3>
                     <NativeSelect
@@ -58,7 +58,7 @@ const Create = () => {
                             borderBottom: "3px solid ##587c54",
                             margin: "4px 8px"
                         }}
-                    /> */}
+                    />
                 </div>
                 <NoticeInput
                     onSubmit={() => {}}
