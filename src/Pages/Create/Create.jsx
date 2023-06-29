@@ -13,6 +13,9 @@ const Create = () => {
     return (
         <div className="CreateBox">
             <form className="PostNoticeForm">
+                <NoticeInput
+                    onSubmit={() => {}}
+                />
                 <div className='Input'>
                     <h3>내용</h3>
                     <input 
@@ -60,9 +63,6 @@ const Create = () => {
                         }}
                     />
                 </div>
-                <NoticeInput
-                    onSubmit={() => {}}
-                />
             </form>
         </div>
     );
